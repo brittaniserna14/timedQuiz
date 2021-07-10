@@ -1,8 +1,69 @@
 /*importing google fonts*/
 
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins' , sans-serif
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #ef6f6c;
+}
+.startBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Styling from Quiz Button */
+.startBtn button,
+.infoTitle {
+  font-size: 25px;
+  font-weight: 500;
+  color: #ddae7e;
+  padding: 15px 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #426a5a;
+}
+.infoBox {
+  width: 540px;
+  background: #426a5a;
+  border-radius: 5px;
+}
+.infoBox .infoTitle {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  display: flex;
+  align-items: center;
+  padding: 0 35px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.infoBox .infoList {
+  padding: 15px 35px;
+}
+.infoBox .infoList .info {
+  margin: 5px;
+  font-size: 17px;
+}
+.infoBox .infoList .info span {
+  font-weight: 600;
+  color: #ddae7e;
+}
+.infoBox .buttons {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 35px;
+  border-top: 1px solid grey;
+}
+.infoBox .buttons button {
+  margin: 0 5px;
+  height: 40 px;
+  width: 100 px;
 }
